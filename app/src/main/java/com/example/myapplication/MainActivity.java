@@ -12,8 +12,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //PageOne out of three
+        //pageOne of three
         TextView pageOne = findViewById(R.id.gg);
-        pageOne.setText("Be the hero to your own finances! \n Save your Piggie Bank.");
+        pageOne.setText("Be the hero to your finances! \n Save your Piggie Bank");
+
     }
 }
