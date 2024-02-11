@@ -27,3 +27,5 @@ We're proud to present a prototype of the implementation! It might not have full
 ## What's next for Piggybank
 As we learn more, we want to continue implementing the app to bring the complete application to fruition with full functionality because as of right this is just a skeleton with LITTLE to no implementation.
 
+## Figma Mock-up
+https://www.figma.com/file/9b06N2zH7eUJAmAG9xQL2Q/Piggy-Bank?type=design&node-id=0%3A1&mode=design&t=nKysqYJSTmODVY6v-1
