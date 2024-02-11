@@ -1,6 +1,7 @@
 # PiggyBank
 > Group Members: Rachel Park, Daniel Laij, Mary Nguyen
 
+![mascot](https://github.com/mpn64894/PiggyBankFinal/blob/master/maskcape.png)
 ## Inspiration
 As college students, we understand the difficulty with budgeting given the new amounts of finances to juggle. After hearing about Capital One's challenge to create a financial tracker, we knew that this would be perfect to develop with a target audience of our college peers.
 
