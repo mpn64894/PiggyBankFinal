@@ -2,49 +2,53 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".OnboardThree">
 
     <TextView
-        android:id="@+id/gg"
+        android:id="@+id/ob3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="40dp"
+        android:padding="10dp"
+        android:text="Once you hit your goals, customize your piggy bank you saved!"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="button"
-        android:layout_centerHorizontal="true"
-        android:textAlignment="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="28dp"
+        android:text="Begin your hero journey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.784" />
+        app:layout_constraintTop_toBottomOf="@+id/ob3"
+        app:layout_constraintVertical_bias="0.481" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="281dp"
-        android:layout_height="531dp"
+        android:id="@+id/imageView6"
+        android:layout_width="330dp"
+        android:layout_height="466dp"
         android:layout_marginStart="65dp"
-        android:layout_marginEnd="65dp"
-        app:layout_constraintBottom_toTopOf="@+id/gg"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="33dp"
+        app:layout_constraintBottom_toTopOf="@+id/ob3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/piggy1" />
+        app:srcCompat="@drawable/pig3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
